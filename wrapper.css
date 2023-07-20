@@ -1,0 +1,21 @@
+.wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+.wrapper::-webkit-scrollbar{
+    height: 6px;
+}
+.wrapper::-webkit-scrollbar-thumb{
+    background: #999;
+    border-radius: 6px;
+}
+.item{
+    width: 300px;
+    min-width: 300px;
+    height: 360px;
+    border: 1px solid red;
+}

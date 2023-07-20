@@ -1,0 +1,118 @@
+@media screen and (max-width:900px) {
+    .top__navbar .top-nav__right ul .icon {
+        display: none;
+    }
+
+    .top-nav__right ul .exist {
+        display: block;
+    }
+
+    .nav-bottom__left ul {
+        display: none;
+    }
+
+    .nav-bottom__left .second {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        background-color:rgba(16, 127, 228, 0.1) ;
+        color: rgb(16, 127, 228);
+    }
+
+    .nav-bottom__left .second li {
+        font-size: 17px;
+    }
+
+    .banner .sidebar {
+        display: none;
+    }
+
+    .banner .image img {
+        width: 100%;
+        padding: 0 1%;
+    }
+
+    .delivery__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .book__banner .book-banner__top {
+        display: none;
+    }
+
+    .book-banner__bottom {
+        margin-top: 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .play__right {
+        display: none;
+    }
+
+    .play {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .top__navbar .top-nav__left i, a {
+        display: none;
+    }
+
+    .july {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .nav-bottom__right ul .nav-bottom__item {
+        display: none;
+    }
+
+    .delivery__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .book-banner__bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .play {
+        padding: 20px;
+        height: auto;
+    }
+
+    .play__left h1{
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+    .play__left img {
+        margin: 20px 0;
+    }
+
+    .play__left .google__play {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .book-banner__bottom {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .book-banner__bottom .image2 {
+        display: none;
+    }
+
+    .july {
+        font-size: 15px;
+    }
+
+    .play__left img {
+        width: 120px;
+    }
+}

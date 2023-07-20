@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    max-width: 1920px;
+    margin: auto;
+    min-height: 500vh;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.nav__logo img{
+    width: 140px;
+}
+.nav__collection{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: 600;
+}
+.nav__item{
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.nav__item:hover{
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+
+
+.banner{
+    width: 100%;
+    height: 800px;
+    background: url("./img/bg1.avif") no-repeat center/cover;
+    text-align: center;
+}
+.banner h1{
+    padding-top: 550px;
+    font-size: 60px;
+    color: #fff;
+}
+.title{
+    text-align: center;
+    padding: 60px 0 30px;
+    font-size: 60px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+.card{
+    width: 500px;
+    min-width: 500px;
+    min-height: 300px;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 55% 45%;
+    overflow: hidden;
+}
+
+.card__image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__text{
+    background: #75675B;
+    padding: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+.card:nth-child(2) .card__text{
+    background: #595B34;
+}
+.card:nth-child(3) .card__text{
+    background: #272329;
+}
+.card__text h2{
+    padding: 20px 0;
+}
+.card__text h1{
+    padding: 50px 0 20px;
+    font-weight: 300;
+}
+.card__text button{
+    padding: 8px 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.icons{
+    width: 94%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    background: #FBFBFB;
+    margin: auto;
+}
+.icons__item{
+    padding: 30px;
+    font-size: 22px;
+    line-height: 1.8;
+    border-right: 1px solid #ddd;
+}
+.icons__item:last-child{
+    border-right: none;
+}
+
+.lets__go{
+    background: url("./img/bg3.avif") no-repeat center/cover;
+}
